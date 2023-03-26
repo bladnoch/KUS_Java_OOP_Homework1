@@ -1,6 +1,6 @@
 /*
     Q4.java
-
+    Get nine input number and get results
     3-27-2023
     Dounguk Kim
  */

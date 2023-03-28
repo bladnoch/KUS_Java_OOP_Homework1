@@ -16,10 +16,13 @@ public class Q2 {
         Date today=new Date();
         SimpleDateFormat date=new SimpleDateFormat("yyyy-MM-dd");
 
+
+
 //        input
         Scanner sc= new Scanner(System.in);
-        System.out.println("기다리는 시즌의 날짜를 입력해 주세요");
+        System.out.println("기다리는 시즌의 날짜를 입력해 주세요(yyyy-MM-dd)");
         String newDate=sc.next();
+
 
 //        calc.
         getMonth=Integer.parseInt(date.format(today).substring(date.format(today).indexOf("-")+1,date.format(today).indexOf("-")+3));

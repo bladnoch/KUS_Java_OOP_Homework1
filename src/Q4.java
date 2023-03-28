@@ -21,15 +21,14 @@ public class Q4 {
             getNum[i]=sc.nextInt();
             sum[6]+=getNum[i];
         }
-        sum[0]=getNum[0]+getNum[1]+getNum[2];
-        sum[1]=getNum[3]+getNum[4]+getNum[5];
-        sum[2]=getNum[6]+getNum[7]+getNum[8];
-        sum[3]=getNum[0]+getNum[3]+getNum[6];
-        sum[4]=getNum[1]+getNum[4]+getNum[7];
-        sum[5]=getNum[2]+getNum[5]+getNum[8];
+
 //        calc.
-
-
+        for (int i= 0; i<3;i++){
+            sum[i]+=getNum[i]+getNum[i+1]+getNum[i+2];
+        }
+        for (int i=3;i<6;i++){
+            sum[i]=getNum[i-3]+getNum[i]+getNum[i+3];
+        }
 
 //          output
         for (int i =0;i<9;i++){

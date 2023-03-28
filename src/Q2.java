@@ -7,6 +7,7 @@
 import javax.swing.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Q2 {
     public static void main(String[] args){
@@ -16,6 +17,9 @@ public class Q2 {
         SimpleDateFormat date=new SimpleDateFormat("yyyy-MM-dd");
 
 //        input
+        Scanner sc= new Scanner(System.in);
+        System.out.println("기다리는 시즌의 날짜를 입력해 주세요");
+        String newDate=sc.next();
 
 //        calc.
         getMonth=Integer.parseInt(date.format(today).substring(date.format(today).indexOf("-")+1,date.format(today).indexOf("-")+3));
@@ -32,6 +36,8 @@ public class Q2 {
         else{
             season="겨울입니다.";
         }
+
+//        String newDate=
 
 //        output
         JOptionPane.showMessageDialog(null,date.format(today)+"\n"+season);

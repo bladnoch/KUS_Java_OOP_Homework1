@@ -11,8 +11,8 @@ public class Q1 {
     public static void main(String[] args){
         int IDLength, sum;
         String studentID;
-        sum=0;
 
+        sum=0;
 //        input
         String info= JOptionPane.showInputDialog(null, "Enter your name & student ID (i.e Minseok Seo/12345678:");
 

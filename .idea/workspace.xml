@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5954f012-3a7b-4fde-918f-c1b952d12e03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Q1P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q2P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q3P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q4P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q5P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q6P.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +44,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
@@ -55,6 +69,12 @@
       <workItem from="1680018973487" duration="674000" />
       <workItem from="1680019911177" duration="1210000" />
       <workItem from="1680060036624" duration="36000" />
+      <workItem from="1680113329128" duration="108000" />
+      <workItem from="1680113444437" duration="2142000" />
+      <workItem from="1680174393851" duration="433000" />
+      <workItem from="1680181844405" duration="1826000" />
+      <workItem from="1680184317543" duration="3415000" />
+      <workItem from="1680224873624" duration="12000" />
     </task>
     <servers />
   </component>
@@ -71,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
